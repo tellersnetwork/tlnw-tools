@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A collection of tools for various tasks and functionalities in the Tellers Network ecosystem."
 readme = "README.md"
 authors = [
-    { name = "Tellers Network", email = "info@tellersnetwork.com" }
+    { name = "Tellers Network", email = "admin@tlnw.uk" }
 ]
 requires-python = ">=3.10"
 dependencies = [
