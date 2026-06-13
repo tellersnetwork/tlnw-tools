@@ -1,0 +1,9 @@
+version: "0.1.0"
+description: "A collection of tools for various tasks and functionalities in the Tellers Network ecosystem."
+tools:
+  - name: "generate-image"
+    package: "tlnw-generate-image"
+    execution_mode: "inprocess_import"
+    module: "tlnw_generate_image.cli"
+    entry_point: "main"
+    description: "Generate images and illustrations with OpenAI and Gemini models."

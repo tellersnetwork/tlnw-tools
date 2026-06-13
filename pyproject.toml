@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tlnw-tools"
+version = "0.1.0"
+description = "A collection of tools for various tasks and functionalities in the Tellers Network ecosystem."
+readme = "README.md"
+authors = [
+    { name = "Tellers Network", email = "info@tellersnetwork.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "PyYAML>=6.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tellersnetwork/tlnw-tools"
+
+[project.scripts]
+tlnw-tools = "tlnw_tools.cli:main"
+
+[tool.setuptools]
+packages = ["tlnw_tools"]
+
+[tool.setuptools.package-data]
+tlnw_tools = ["tools.yml"]
